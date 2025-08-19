@@ -78,7 +78,7 @@ def main():
     hands = mp_hands.Hands(max_num_hands=1, min_detection_confidence=0.7)
     mp_draw = mp.solutions.drawing_utils
 
-    POINTER_SIZE = 20
+    POINTER_SIZE = 10
     draw_color = (0, 255, 0)
 
     canvas = None
